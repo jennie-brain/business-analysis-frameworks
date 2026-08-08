@@ -22,5 +22,5 @@
 - [x] 01 - Porter's Five Forces 모델 — 해외 간편결제 vs B2B 스테이블코인 무역정산 비교 분석 완료 (`01_Porters_Five_Forces_모델/`)
 - [x] 02 - 기업 내부 활동의 가치 사슬 분석 — 동일 두 영역 가치사슬 비교 분석 완료 (`02_가치사슬_분석/`)
 - [x] 03 - 핵심 성공 요인(KSFs) 분석 — Five Forces·가치사슬 근거로 신규 진입자용 Top 5 KSF 도출 완료 (`03_핵심성공요인_분석/`)
-- [~] 04 - TAM-SAM-SOM 과 Market Segment Map — "AI 협업 리서치 7단계 전략"을 방법론으로 채택, B2B 국경간 이종통화 결제·정산 인프라 시장 대상 1~4단계(광범위한 탐색~가설 수립) 진행 (`04_TAM-SAM-SOM_마켓세그먼트/`)
+- [x] 04 - TAM-SAM-SOM 과 Market Segment Map — "AI 협업 리서치 7단계 전략"을 방법론으로 채택, B2B 국경간 이종통화 결제·정산 인프라 시장 대상 1~7단계 진행 후 TAM(179조 달러)·SAM(1.34조 달러)·SOM(62억~94억 달러)·Market Segment Map 종합 완료 (`04_TAM-SAM-SOM_마켓세그먼트/`)
 - [ ] 05~07 - 미착수
