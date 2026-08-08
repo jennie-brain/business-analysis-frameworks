@@ -162,8 +162,8 @@ quadrantChart
     title 코리도별 시장 규모 x 전략적 접근 용이성
     x-axis 시장 규모 작음 --> 시장 규모 큼
     y-axis 접근 용이성 낮음 --> 접근 용이성 높음
-    quadrant-1 핵심 타겟(Phase 1)
-    quadrant-2 작지만 접근 쉬움(조기 확장)
+    quadrant-1 핵심 타겟 Phase 1
+    quadrant-2 작지만 접근 쉬운 조기 확장
     quadrant-3 관찰만
     quadrant-4 크지만 접근 어려움
     "USD-KRW": [0.9, 0.9]
