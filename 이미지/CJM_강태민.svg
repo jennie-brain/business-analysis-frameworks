@@ -1,0 +1,98 @@
+<svg width="1500" height="650" viewBox="0 0 1500 650" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+  <rect width="1500" height="650" fill="#ffffff"/>
+
+  <rect x="0" y="125" width="250" height="495" fill="#fef2f2"/>
+  <rect x="250" y="125" width="250" height="495" fill="#fee2e2"/>
+  <rect x="500" y="125" width="250" height="495" fill="#fef2f2"/>
+  <rect x="750" y="125" width="250" height="495" fill="#fee2e2"/>
+  <rect x="1000" y="125" width="250" height="495" fill="#fef2f2"/>
+  <rect x="1250" y="125" width="250" height="495" fill="#fee2e2"/>
+
+  <circle cx="70" cy="60" r="42" fill="#ef4444"/>
+  <text x="70" y="70" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">강</text>
+  <text x="130" y="42" font-size="21" font-weight="bold" fill="#7f1d1d">강태민 부장(가칭) · Extreme(극단)</text>
+  <text x="130" y="68" font-size="13" fill="#475569">중견 수출입기업 자금팀장 — 문제를 제기하는 내부 스폰서(단독 결정권자 아님)</text>
+  <text x="130" y="88" font-size="13" fill="#475569">월말·분기말 동시 마감 시 컷오프에 밀려 실패를 반복 경험(예시값)</text>
+  <line x1="0" y1="115" x2="1500" y2="115" stroke="#cbd5e1" stroke-width="1"/>
+
+  <rect x="0" y="125" width="250" height="48" fill="#ef4444"/>
+  <rect x="250" y="125" width="250" height="48" fill="#ef4444"/>
+  <rect x="500" y="125" width="250" height="48" fill="#ef4444"/>
+  <rect x="750" y="125" width="250" height="48" fill="#ef4444"/>
+  <rect x="1000" y="125" width="250" height="48" fill="#ef4444"/>
+  <rect x="1250" y="125" width="250" height="48" fill="#ef4444"/>
+
+  <text x="125" y="155" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">①평시 인식</text>
+  <text x="375" y="155" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">②실패 경험</text>
+  <text x="625" y="155" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">③문제 제기</text>
+  <text x="875" y="155" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">④공동 검토</text>
+  <text x="1125" y="155" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">⑤위험 예측</text>
+  <text x="1375" y="155" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">⑥예외 평가</text>
+
+  <text x="125" y="194" font-size="13" fill="#334155" text-anchor="middle">평소엔 특별한</text>
+  <text x="125" y="211" font-size="13" fill="#334155" text-anchor="middle">문제 없이 처리</text>
+
+  <text x="375" y="194" font-size="13" fill="#334155" text-anchor="middle">분기말 컷오프에</text>
+  <text x="375" y="211" font-size="13" fill="#334155" text-anchor="middle">밀려 위약금 발생</text>
+
+  <text x="625" y="194" font-size="13" fill="#334155" text-anchor="middle">재발방지 예산</text>
+  <text x="625" y="211" font-size="13" fill="#334155" text-anchor="middle">발의, 스폰서 역할</text>
+
+  <text x="875" y="194" font-size="13" fill="#334155" text-anchor="middle">CFO·보안·준법·회계</text>
+  <text x="875" y="211" font-size="13" fill="#334155" text-anchor="middle">함께 검토</text>
+
+  <text x="1125" y="194" font-size="13" fill="#334155" text-anchor="middle">필요유동성 예측</text>
+  <text x="1125" y="211" font-size="13" fill="#334155" text-anchor="middle">컷오프관리 사용</text>
+
+  <text x="1375" y="194" font-size="13" fill="#334155" text-anchor="middle">월별 예외발생률</text>
+  <text x="1375" y="211" font-size="13" fill="#334155" text-anchor="middle">확인해 판단</text>
+
+  <path d="M125,450 C165,450 335,570 375,570 C415,570 585,450 625,450 C665,450 835,510 875,510 C915,510 1085,390 1125,390 C1165,390 1335,390 1375,390"
+        fill="none" stroke="#94a3b8" stroke-width="3"/>
+
+  <rect x="30" y="365" width="190" height="65" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="115,430 135,430 125,445" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="125" y="392" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">"평소엔</text>
+  <text x="125" y="410" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">괜찮은데"</text>
+
+  <rect x="280" y="485" width="190" height="65" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="365,550 385,550 375,565" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="375" y="512" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">"이번엔 정말</text>
+  <text x="375" y="530" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">큰일났다"</text>
+
+  <rect x="530" y="365" width="190" height="65" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="615,430 635,430 625,445" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="625" y="392" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">"제대로 준비</text>
+  <text x="625" y="410" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">해야 한다"</text>
+
+  <rect x="780" y="425" width="190" height="65" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="865,490 885,490 875,505" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="875" y="452" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">"다들 걱정하는</text>
+  <text x="875" y="470" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">게 다르네"</text>
+
+  <rect x="1030" y="305" width="190" height="65" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="1115,370 1135,370 1125,385" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="1125" y="332" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">"미리 알 수 있어</text>
+  <text x="1125" y="350" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">안심된다"</text>
+
+  <rect x="1280" y="305" width="190" height="65" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="1365,370 1385,370 1375,385" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="1375" y="332" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">"예외 줄면</text>
+  <text x="1375" y="350" font-size="13" font-style="italic" fill="#1e293b" text-anchor="middle">계속 쓸 만하다"</text>
+
+  <circle cx="125" cy="450" r="9" fill="#eab308" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="375" cy="570" r="9" fill="#ef4444" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="625" cy="450" r="9" fill="#eab308" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="875" cy="510" r="9" fill="#f59e0b" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="1125" cy="390" r="9" fill="#22c55e" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="1375" cy="390" r="9" fill="#22c55e" stroke="#ffffff" stroke-width="2"/>
+
+  <line x1="0" y1="600" x2="1500" y2="600" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="20" y="612" width="16" height="16" fill="#ef4444"/>
+  <text x="42" y="625" font-size="12" fill="#475569">매우부정</text>
+  <rect x="110" y="612" width="16" height="16" fill="#eab308"/>
+  <text x="132" y="625" font-size="12" fill="#475569">중립</text>
+  <rect x="180" y="612" width="16" height="16" fill="#22c55e"/>
+  <text x="202" y="625" font-size="12" fill="#475569">긍정</text>
+  <text x="1480" y="625" font-size="11" fill="#94a3b8" text-anchor="end">수치·인물은 예시값 — 인터뷰 검증 필요</text>
+</svg>
