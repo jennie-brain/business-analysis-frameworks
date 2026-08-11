@@ -110,29 +110,56 @@
 
 ## 6. AOS 사분면 매트릭스
 
-X축은 Satisfaction(충족도), Y축은 Importance(중요도)다. 36개 전체 항목·AOS 값은 5절 표에 이미 다 있으므로, 이 다이어그램은 4개 사분면의 건수·AOS 범위·대표 항목만 요약한다.
+X축은 Satisfaction(충족도), Y축은 Importance(중요도)다. 두 축 모두 1~5점을 0~1로 선형 변환했다(0=1점, 1=5점). 아래 좌표의 라벨은 1~4절 표의 "#" 컬럼과 동일한 ID다(한글 라벨은 mermaid의 quadrantChart 렌더러에서 반복적으로 렉싱 오류를 일으켜, 좌표축 라벨만 영문 ID로 바꿨다 — ID→페르소나 대응은 1~4절 표 참고).
 
 ```mermaid
-flowchart TD
-    subgraph Top["Y축 High Importance"]
-    direction LR
-    Q1["Q1 혁신기회 16건<br/>AOS 1.8~4.0 - 최고 강태민·배소연(4.0)"]:::q1
-    Q2["Q2 개선기회 6건<br/>AOS 0.0~1.2 - 최고 김민준 등(1.2)"]:::q2
-    end
-    subgraph Bottom["Y축 Low Importance"]
-    direction LR
-    Q3["Q3 유지관리 2건<br/>AOS 1.2 - 이영재·오현석"]:::q3
-    Q4["Q4 과잉투자 12건<br/>AOS 0.0~0.8 - 최고 강태민 등(0.8)"]:::q4
-    end
-    Top --- Bottom
-
-    classDef q1 fill:#BBDEFB,stroke:#1565C0,stroke-width:1.5px
-    classDef q2 fill:#C8E6C9,stroke:#2E7D32,stroke-width:1.5px
-    classDef q3 fill:#EEEEEE,stroke:#424242,stroke-width:1.5px
-    classDef q4 fill:#FFE0B2,stroke:#E65100,stroke-width:1.5px
+quadrantChart
+    title AOS Matrix - 36 Pain Points
+    x-axis Low Satisfaction --> High Satisfaction
+    y-axis Low Importance --> High Importance
+    quadrant-1 Q2
+    quadrant-2 Q1
+    quadrant-3 Q3
+    quadrant-4 Q4
+    "C1-1": [0.25, 1.0]
+    "C1-5": [0.5, 0.5]
+    "C1-6": [0.75, 0.25]
+    "C2-1": [0.25, 0.75]
+    "C2-4": [0.75, 0.25]
+    "C2-5": [0.5, 0.25]
+    "C3-1": [0.25, 1.0]
+    "C3-5": [0.5, 0.5]
+    "C3-6": [0.75, 0.25]
+    "C4-1": [0.25, 0.75]
+    "C4-4": [0.5, 0.5]
+    "C4-5": [0.5, 0.25]
+    "C5-1": [0.25, 0.75]
+    "C5-4": [0.5, 0.5]
+    "C5-5": [0.5, 0.25]
+    "A2-1": [0.5, 0.5]
+    "A2-2": [0.25, 0.75]
+    "A2-4": [0.25, 0.5]
+    "A1-2": [0.25, 0.75]
+    "A1-4": [0.0, 0.5]
+    "A1-5": [0.25, 0.25]
+    "A3-2": [0.25, 0.75]
+    "A3-4": [0.25, 0.5]
+    "A3-5": [0.0, 0.5]
+    "E1-2": [0.0, 1.0]
+    "E1-5": [0.75, 0.25]
+    "E1-6": [0.5, 0.25]
+    "E2-2": [0.0, 1.0]
+    "E2-3": [0.25, 0.5]
+    "E2-5": [0.5, 0.25]
+    "N1-1": [1.0, 0.0]
+    "N1-3": [0.75, 0.25]
+    "N1-4": [1.0, 0.5]
+    "N2-1": [0.5, 0.25]
+    "N2-3": [0.25, 0.75]
+    "N2-5": [0.25, 0.25]
 ```
 
-**그림. AOS 사분면 요약** — Q1(혁신기회)에 36개 중 16개가 몰려 있고, 최고점(4.0)은 강태민·배소연(Extreme 유형 2명)이 동률로 차지한다. 항목별 정확한 Importance·Satisfaction·AOS·소속 사분면은 5절 순위표를 참고한다.
+**그림. AOS 매트릭스(36개)** — 좌상단(Q1)에 16개가 몰려 있고, 그중 E1-2(강태민②)·E2-2(배소연②)가 (0.0, 1.0)로 가장 왼쪽 위 극단에 위치한다. 좌하단(Q3)에는 A1-5(이영재⑤)·N2-5(오현석⑤)만 있다. 다수 항목이 좌표가 겹친다 — 예를 들어 C4-5·C5-5(한지원⑤·오세훈⑤)는 둘 다 (0.5, 0.25)다.
 
 ## 7. 해설과 다음 단계
 
