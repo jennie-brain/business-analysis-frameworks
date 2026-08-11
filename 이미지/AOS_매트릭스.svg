@@ -1,0 +1,143 @@
+<svg viewBox="0 0 760 730" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <rect width="760" height="730" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">AOS 매트릭스 — 36개 Pain (Satisfaction × Importance)</text>
+
+  <!-- quadrant background blocks -->
+  <rect x="100" y="70" width="240" height="330" fill="#BBDEFB"/>
+  <rect x="340" y="70" width="360" height="330" fill="#C8E6C9"/>
+  <rect x="100" y="400" width="240" height="220" fill="#EEEEEE"/>
+  <rect x="340" y="400" width="360" height="220" fill="#FFE0B2"/>
+
+  <!-- 5x5 cell gridlines -->
+  <line x1="220" y1="70" x2="220" y2="620" stroke="#ffffff" stroke-width="2"/>
+  <line x1="460" y1="70" x2="460" y2="620" stroke="#ffffff" stroke-width="2"/>
+  <line x1="580" y1="70" x2="580" y2="620" stroke="#ffffff" stroke-width="2"/>
+  <line x1="100" y1="180" x2="700" y2="180" stroke="#ffffff" stroke-width="2"/>
+  <line x1="100" y1="510" x2="700" y2="510" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- median divider (Sat 2/3 경계, Imp 2/3 경계) -->
+  <line x1="340" y1="70" x2="340" y2="620" stroke="#333333" stroke-width="3"/>
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#333333" stroke-width="3"/>
+
+  <!-- outer border -->
+  <rect x="100" y="70" width="600" height="550" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- quadrant labels -->
+  <text x="220" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565C0">Q1 혁신기회 (16건)</text>
+  <text x="520" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E7D32">Q2 개선기회 (6건)</text>
+  <text x="220" y="639" text-anchor="middle" font-size="13" font-weight="bold" fill="#616161">Q3 유지관리 (2건)</text>
+  <text x="520" y="639" text-anchor="middle" font-size="13" font-weight="bold" fill="#E65100">Q4 과잉투자 (12건)</text>
+
+  <!-- x tick labels (Satisfaction 1~5) -->
+  <text x="160" y="658" text-anchor="middle" font-size="12" fill="#333">1</text>
+  <text x="280" y="658" text-anchor="middle" font-size="12" fill="#333">2</text>
+  <text x="400" y="658" text-anchor="middle" font-size="12" fill="#333">3</text>
+  <text x="520" y="658" text-anchor="middle" font-size="12" fill="#333">4</text>
+  <text x="640" y="658" text-anchor="middle" font-size="12" fill="#333">5</text>
+  <text x="400" y="680" text-anchor="middle" font-size="13" fill="#333">Satisfaction(충족도) — Low 1 → High 5</text>
+
+  <!-- y tick labels (Importance 1~5, 아래→위) -->
+  <text x="90" y="569" text-anchor="end" font-size="12" fill="#333">1</text>
+  <text x="90" y="459" text-anchor="end" font-size="12" fill="#333">2</text>
+  <text x="90" y="349" text-anchor="end" font-size="12" fill="#333">3</text>
+  <text x="90" y="239" text-anchor="end" font-size="12" fill="#333">4</text>
+  <text x="90" y="129" text-anchor="end" font-size="12" fill="#333">5</text>
+  <text x="30" y="345" text-anchor="middle" font-size="13" fill="#333" transform="rotate(-90 30 345)">Importance(중요도) — Low 1 → High 5</text>
+
+  <!-- ===== 셀 (Sat1, Imp3): A1-4, A3-5 ===== -->
+  <circle cx="114" cy="306" r="3.5" fill="#2E7D32"/>
+  <text x="124" y="310" font-size="11" fill="#2E7D32">A1-4</text>
+  <circle cx="114" cy="320" r="3.5" fill="#2E7D32"/>
+  <text x="124" y="324" font-size="11" fill="#2E7D32">A3-5</text>
+
+  <!-- ===== 셀 (Sat1, Imp5): E1-2★, E2-2 ===== -->
+  <circle cx="114" cy="86" r="3.5" fill="#C62828"/>
+  <text x="124" y="90" font-size="11" font-weight="bold" fill="#C62828">E1-2★</text>
+  <circle cx="114" cy="100" r="3.5" fill="#C62828"/>
+  <text x="124" y="104" font-size="11" fill="#C62828">E2-2</text>
+
+  <!-- ===== 셀 (Sat2, Imp2): A1-5, N2-5 ===== -->
+  <circle cx="234" cy="416" r="3.5" fill="#2E7D32"/>
+  <text x="244" y="420" font-size="11" fill="#2E7D32">A1-5</text>
+  <circle cx="234" cy="430" r="3.5" fill="#555555"/>
+  <text x="244" y="434" font-size="11" fill="#555555">N2-5</text>
+
+  <!-- ===== 셀 (Sat2, Imp3): A2-4★, A3-4, E2-3 ===== -->
+  <circle cx="234" cy="306" r="3.5" fill="#2E7D32"/>
+  <text x="244" y="310" font-size="11" font-weight="bold" fill="#2E7D32">A2-4★</text>
+  <circle cx="234" cy="320" r="3.5" fill="#2E7D32"/>
+  <text x="244" y="324" font-size="11" fill="#2E7D32">A3-4</text>
+  <circle cx="234" cy="334" r="3.5" fill="#C62828"/>
+  <text x="244" y="338" font-size="11" fill="#C62828">E2-3</text>
+
+  <!-- ===== 셀 (Sat2, Imp4): C2-1,C4-1,C5-1,A2-2★,A1-2,A3-2,N2-3 ===== -->
+  <circle cx="234" cy="196" r="3.5" fill="#1565C0"/>
+  <text x="244" y="200" font-size="11" fill="#1565C0">C2-1</text>
+  <circle cx="234" cy="210" r="3.5" fill="#1565C0"/>
+  <text x="244" y="214" font-size="11" fill="#1565C0">C4-1</text>
+  <circle cx="234" cy="224" r="3.5" fill="#1565C0"/>
+  <text x="244" y="228" font-size="11" fill="#1565C0">C5-1</text>
+  <circle cx="234" cy="238" r="3.5" fill="#2E7D32"/>
+  <text x="244" y="242" font-size="11" font-weight="bold" fill="#2E7D32">A2-2★</text>
+  <circle cx="234" cy="252" r="3.5" fill="#2E7D32"/>
+  <text x="244" y="256" font-size="11" fill="#2E7D32">A1-2</text>
+  <circle cx="234" cy="266" r="3.5" fill="#2E7D32"/>
+  <text x="244" y="270" font-size="11" fill="#2E7D32">A3-2</text>
+  <circle cx="234" cy="280" r="3.5" fill="#555555"/>
+  <text x="244" y="284" font-size="11" fill="#555555">N2-3</text>
+
+  <!-- ===== 셀 (Sat2, Imp5): C1-1★, C3-1 ===== -->
+  <circle cx="234" cy="86" r="3.5" fill="#1565C0"/>
+  <text x="244" y="90" font-size="11" font-weight="bold" fill="#1565C0">C1-1★</text>
+  <circle cx="234" cy="100" r="3.5" fill="#1565C0"/>
+  <text x="244" y="104" font-size="11" fill="#1565C0">C3-1</text>
+
+  <!-- ===== 셀 (Sat3, Imp2): C2-5,C4-5,C5-5,E1-6★,E2-5,N2-1 ===== -->
+  <circle cx="354" cy="416" r="3.5" fill="#1565C0"/>
+  <text x="364" y="420" font-size="11" fill="#1565C0">C2-5</text>
+  <circle cx="354" cy="430" r="3.5" fill="#1565C0"/>
+  <text x="364" y="434" font-size="11" fill="#1565C0">C4-5</text>
+  <circle cx="354" cy="444" r="3.5" fill="#1565C0"/>
+  <text x="364" y="448" font-size="11" fill="#1565C0">C5-5</text>
+  <circle cx="354" cy="458" r="3.5" fill="#C62828"/>
+  <text x="364" y="462" font-size="11" font-weight="bold" fill="#C62828">E1-6★</text>
+  <circle cx="354" cy="472" r="3.5" fill="#C62828"/>
+  <text x="364" y="476" font-size="11" fill="#C62828">E2-5</text>
+  <circle cx="354" cy="486" r="3.5" fill="#555555"/>
+  <text x="364" y="490" font-size="11" fill="#555555">N2-1</text>
+
+  <!-- ===== 셀 (Sat3, Imp3): C1-5★,C3-5,C4-4,C5-4,A2-1★ ===== -->
+  <circle cx="354" cy="306" r="3.5" fill="#1565C0"/>
+  <text x="364" y="310" font-size="11" font-weight="bold" fill="#1565C0">C1-5★</text>
+  <circle cx="354" cy="320" r="3.5" fill="#1565C0"/>
+  <text x="364" y="324" font-size="11" fill="#1565C0">C3-5</text>
+  <circle cx="354" cy="334" r="3.5" fill="#1565C0"/>
+  <text x="364" y="338" font-size="11" fill="#1565C0">C4-4</text>
+  <circle cx="354" cy="348" r="3.5" fill="#1565C0"/>
+  <text x="364" y="352" font-size="11" fill="#1565C0">C5-4</text>
+  <circle cx="354" cy="362" r="3.5" fill="#2E7D32"/>
+  <text x="364" y="366" font-size="11" font-weight="bold" fill="#2E7D32">A2-1★</text>
+
+  <!-- ===== 셀 (Sat4, Imp2): C1-6★,C2-4,C3-6,E1-5★,N1-3★ ===== -->
+  <circle cx="474" cy="416" r="3.5" fill="#1565C0"/>
+  <text x="484" y="420" font-size="11" font-weight="bold" fill="#1565C0">C1-6★</text>
+  <circle cx="474" cy="430" r="3.5" fill="#1565C0"/>
+  <text x="484" y="434" font-size="11" fill="#1565C0">C2-4</text>
+  <circle cx="474" cy="444" r="3.5" fill="#1565C0"/>
+  <text x="484" y="448" font-size="11" fill="#1565C0">C3-6</text>
+  <circle cx="474" cy="458" r="3.5" fill="#C62828"/>
+  <text x="484" y="462" font-size="11" font-weight="bold" fill="#C62828">E1-5★</text>
+  <circle cx="474" cy="472" r="3.5" fill="#555555"/>
+  <text x="484" y="476" font-size="11" font-weight="bold" fill="#555555">N1-3★</text>
+
+  <!-- ===== 셀 (Sat5, Imp1): N1-1★ ===== -->
+  <circle cx="594" cy="546" r="3.5" fill="#555555"/>
+  <text x="604" y="550" font-size="11" font-weight="bold" fill="#555555">N1-1★</text>
+
+  <!-- ===== 셀 (Sat5, Imp3): N1-4★ ===== -->
+  <circle cx="594" cy="306" r="3.5" fill="#555555"/>
+  <text x="604" y="310" font-size="11" font-weight="bold" fill="#555555">N1-4★</text>
+
+  <!-- legend -->
+  <text x="400" y="712" text-anchor="middle" font-size="11" fill="#555">C=Core · A=Adjacent · E=Extreme · N=Non-user · ★=05챕터 대표 4명(C1·A2·E1·N1)</text>
+</svg>
