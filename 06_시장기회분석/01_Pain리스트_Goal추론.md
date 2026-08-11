@@ -92,6 +92,18 @@
 | E2-③ | 임시방편이라 비용이 크고 반복 가능(③특급송금 임시대응) | 처리지연 | 매번 비싼 특급송금에 의존하지 않고도 마감을 지키는 것 |
 | E2-⑤ | 옵션 비용이 일반 처리보다 높음(⑤확정초단기옵션 도입) | 처리지연 | 초단기 옵션을 반복 사용해도 비용 부담이 과도하지 않은 것 |
 
+### 외부 근거 보충 — E1-②·E2-②(실패→위약금 메커니즘)
+
+E1-②·E2-②는 06챕터 AOS·DOS·AOS×DOS 분석 전체에서 공동 1위(AOS 4.0, DOS·SOM 버전 4.0/2.6)를 기록한 핵심 항목이다. 다만 `05_페르소나_고객여정지도/01_페르소나스펙트럼_분석보고서.md` 4단계(존재확률 검증)가 이미 강태민에 대해 "'실제로 위약금을 낸 경험'이라는 구체적 사건은 원자료에 직접 인용이 없어 가설이다. 발생 빈도·규모 확인이 필요하다"고 표시해 둔 항목이기도 하다. 외부 자료로 이 Pain을 구성하는 개별 메커니즘의 실재 여부를 확인했다.
+
+- **은행 컷오프 시간과 그로 인한 지연은 업계 표준 관행이다.** SEPA·SWIFT 컷오프는 현지시각 오후 2~4:30시, 미국 은행은 오후 3~5시가 일반적이며, 놓치면 자동으로 24시간(주말·공휴일이 겹치면 최대 72시간) 지연된다.
+- **분기말 유동성 압박도 금융업계에서 반복적으로 다뤄지는 현상이다.** 법인세 납부일·국채 결제가 겹치는 분기말에 자금이 일시적으로 마르는 패턴은 2019년 9월 레포 시장 경색 이후 계속 재조명되고 있다.
+- **지연배상금(late payment penalty) 조항도 무역계약에서 표준적이다.** 월 1.5~2%가 흔한 요율이다.
+
+세 메커니즘(컷오프·분기말 압박·지연배상금) 각각은 실재하고 업계에서 잘 문서화돼 있다. 그러나 **"SME 수출입기업이 분기말에 컷오프가 겹쳐 실제로 위약금을 냈다"는 조합 자체를 뒷받침하는 업계 사례·통계는 확인하지 못했다** — 세 요소를 조합한 추론이지, 검증된 사례 인용이 아니다.
+
+> ⚠️ **유의점**: E1-②·E2-②는 06챕터 전체(AOS 최고점 → DOS 최고점 → AOS×DOS BEST CASE 1위)에서 일관되게 최우선 순위로 나오지만, 그 근거인 "실제 실패(위약금) 경험"은 여전히 검증되지 않은 가설이다. 07챕터 JTBD 인터뷰에서 **발생 빈도·규모를 최우선으로 확인**해야 한다 — 실제로는 드문 사건으로 밝혀지면 06챕터의 1위 판정 자체가 재검토 대상이 된다.
+
 ## 4. Non-user — 2명
 
 ### 최지훈★ (업무목표: 기존 체계의 안정성을 유지하며 리스크를 최소화하는 것)
@@ -127,3 +139,13 @@ Goal 두 컬럼의 연결 강도는 여전히 페르소나마다 다르다. Core
 - `05_페르소나_고객여정지도/01_페르소나스펙트럼_분석보고서.md` — 1단계(1차 생성) 12명 원본 데이터, 대표 4명 업무목표(3단계 카드)
 - `05_페르소나_고객여정지도/02_고객여정지도.md` — 대표 4명 CJM
 - `05_페르소나_고객여정지도/03_참고후보_고객여정지도.md` — 참고후보 8명 CJM
+
+### 외부 참고자료 (E1-②·E2-② 근거 보충)
+
+- [Why Do Banks Impose Cutoffs? – Modern Treasury](https://www.moderntreasury.com/journal/why-do-banks-impose-cutoffs)
+- [Cut Off Time for International Payments & Wire Deadlines – Razorpay](https://razorpay.com/blog/cut-off-time-for-international-payments-guide/)
+- [Cut-off times and value dates – HSBC Innovation Banking](https://www.hsbcinnovationbanking.com/-/media/hinv/pdf/regulations/payments-and-fx-cutoff-times)
+- [Analysis-Wall Street Braces for Quarter-End Liquidity Stress in Money Markets – US News](https://money.usnews.com/investing/news/articles/2025-09-12/analysis-wall-street-braces-for-quarter-end-liquidity-stress-in-money-markets)
+- [Repo Market's Warning Light is Flickering – The Daily Economy](https://thedailyeconomy.org/article/repo-markets-warning-light-is-flickering/)
+- [Examples of late payment penalty clauses in contracts – Afterpattern](https://afterpattern.com/clauses/late-payment-penalty)
+- [Late payments: how to avoid and collect them – Allianz Trade](https://www.allianz-trade.com/en_global/news-insights/business-tips-and-trade-advice/late-payments-how-to-collect-and-avoid-them.html)
