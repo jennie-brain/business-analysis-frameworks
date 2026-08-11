@@ -1,0 +1,122 @@
+<svg viewBox="0 0 780 700" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <rect width="780" height="700" fill="#ffffff"/>
+  <text x="390" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">AOS × DOS 비교 — 36개 Pain (X: AOS, Y: DOS·SOM 버전)</text>
+
+  <!-- 사분면 배경 -->
+  <rect x="268" y="140" width="422" height="320" fill="#E8F5E9"/>   <!-- BEST: AOS高 DOS高 -->
+  <rect x="100" y="140" width="168" height="320" fill="#ECEFF1"/>   <!-- Q3형: AOS低 DOS高 (empty) -->
+  <rect x="268" y="460" width="422" height="160" fill="#FFF3E0"/>   <!-- AOS高 DOS低 -->
+  <rect x="100" y="460" width="168" height="160" fill="#F5F5F5"/>   <!-- 둘다낮음 -->
+
+  <!-- 분할선: AOS 중앙값 1.2, DOS=0 -->
+  <line x1="268" y1="140" x2="268" y2="620" stroke="#333333" stroke-width="2.5"/>
+  <line x1="100" y1="460" x2="690" y2="460" stroke="#333333" stroke-width="2.5"/>
+  <rect x="100" y="140" width="590" height="480" fill="none" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- 사분면 라벨 -->
+  <text x="480" y="160" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E7D32">BEST CASE — 16건</text>
+  <text x="184" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="#607D8B">DOS高·AOS低 — 0건</text>
+  <text x="480" y="478" text-anchor="middle" font-size="13" font-weight="bold" fill="#E65100">AOS高·DOS低 — 7건</text>
+  <text x="184" y="478" text-anchor="middle" font-size="12" font-weight="bold" fill="#757575">둘 다 낮음 — 13건</text>
+
+  <!-- X축(AOS) 눈금 -->
+  <text x="100" y="640" text-anchor="middle" font-size="11" fill="#333">0</text>
+  <text x="240" y="640" text-anchor="middle" font-size="11" fill="#333">1</text>
+  <text x="268" y="655" text-anchor="middle" font-size="10" font-weight="bold" fill="#C62828">1.2(중앙값)</text>
+  <text x="380" y="640" text-anchor="middle" font-size="11" fill="#333">2</text>
+  <text x="520" y="640" text-anchor="middle" font-size="11" fill="#333">3</text>
+  <text x="660" y="640" text-anchor="middle" font-size="11" fill="#333">4</text>
+  <text x="390" y="675" text-anchor="middle" font-size="13" fill="#333">AOS(0~4) →</text>
+
+  <!-- Y축(DOS) 눈금 -->
+  <text x="90" y="624" text-anchor="end" font-size="11" fill="#333">-2</text>
+  <text x="90" y="544" text-anchor="end" font-size="11" fill="#333">-1</text>
+  <text x="90" y="464" text-anchor="end" font-size="10" font-weight="bold" fill="#C62828">0</text>
+  <text x="90" y="384" text-anchor="end" font-size="11" fill="#333">1</text>
+  <text x="90" y="304" text-anchor="end" font-size="11" fill="#333">2</text>
+  <text x="90" y="224" text-anchor="end" font-size="11" fill="#333">3</text>
+  <text x="90" y="144" text-anchor="end" font-size="11" fill="#333">4</text>
+  <text x="35" y="380" text-anchor="middle" font-size="13" fill="#333" transform="rotate(-90 35 380)">DOS(SOM 버전) →</text>
+
+  <!-- ===== 데이터 포인트 (20개 좌표 클러스터, 36개 항목) ===== -->
+  <!-- (4.0,4.0) E1-② 강태민★ 1건 BEST -->
+  <circle cx="660" cy="140" r="9" fill="#2E7D32"/>
+  <text x="672" y="136" font-size="11" font-weight="bold" fill="#2E7D32">E1-② 강태민★(4.0)</text>
+
+  <!-- (4.0,2.6) E2-② 배소연 1건 BEST -->
+  <circle cx="660" cy="252" r="9" fill="#2E7D32"/>
+  <text x="672" y="248" font-size="11" fill="#2E7D32">E2-② 배소연(2.6)</text>
+
+  <!-- (3.0,1.95) C1-① 김민준★ 1건 BEST -->
+  <circle cx="520" cy="304" r="9" fill="#2E7D32"/>
+  <text x="532" y="300" font-size="11" font-weight="bold" fill="#2E7D32">C1-① 김민준★</text>
+
+  <!-- (3.0,1.05) C3-① 정하늘 1건 BEST -->
+  <circle cx="520" cy="376" r="9" fill="#2E7D32"/>
+  <text x="532" y="372" font-size="11" fill="#2E7D32">C3-① 정하늘</text>
+
+  <!-- (2.4,2.0) C5-①·N2-③ 2건 BEST -->
+  <circle cx="436" cy="300" r="11" fill="#2E7D32"/>
+  <text x="450" y="296" font-size="11" fill="#2E7D32">C5-①·N2-③(2건)</text>
+
+  <!-- (2.4,1.3) C2-① 이수경 1건 BEST -->
+  <circle cx="436" cy="356" r="9" fill="#2E7D32"/>
+  <text x="450" y="352" font-size="11" fill="#2E7D32">C2-① 이수경</text>
+
+  <!-- (2.4,0.7) C4-① 한지원 1건 BEST -->
+  <circle cx="436" cy="404" r="9" fill="#2E7D32"/>
+  <text x="450" y="418" font-size="11" fill="#2E7D32">C4-① 한지원</text>
+
+  <!-- (2.4,0.4) Adjacent 5건 BEST -->
+  <circle cx="436" cy="428" r="14" fill="#2E7D32"/>
+  <text x="454" y="440" font-size="11" fill="#2E7D32">Adjacent 5건</text>
+
+  <!-- (1.8,0.65) E2-③ 배소연 1건 BEST -->
+  <circle cx="352" cy="408" r="9" fill="#2E7D32"/>
+  <text x="364" y="404" font-size="11" fill="#2E7D32">E2-③ 배소연</text>
+
+  <!-- (1.8,0.2) Adjacent 2건 BEST -->
+  <circle cx="352" cy="444" r="11" fill="#2E7D32"/>
+  <text x="300" y="436" font-size="11" fill="#2E7D32">Adjacent 2건</text>
+
+  <!-- (1.2,0.0) 중립 7건 → AOS高DOS低 (경계값, 살짝 이동) -->
+  <circle cx="278" cy="466" r="17" fill="#E65100"/>
+  <text x="230" y="500" font-size="11" font-weight="bold" fill="#E65100">중립(Imp=Sat) 7건</text>
+
+  <!-- (0.8,-1.0) 3건 둘다낮음 -->
+  <circle cx="212" cy="540" r="11" fill="#9E9E9E"/>
+  <text x="150" y="536" font-size="11" fill="#757575">C5-⑤·E1-⑥·N2-①(3건)</text>
+
+  <!-- (0.8,-0.65) 2건 둘다낮음 -->
+  <circle cx="212" cy="512" r="9.5" fill="#9E9E9E"/>
+  <text x="150" y="508" font-size="11" fill="#757575">C2-⑤·E2-⑤(2건)</text>
+
+  <!-- (0.4,-1.3) 2건 둘다낮음 -->
+  <circle cx="156" cy="564" r="9.5" fill="#9E9E9E"/>
+  <text x="115" y="580" font-size="11" fill="#757575">김민준·이수경 락인(2건)</text>
+
+  <!-- (0.8,-0.35) 1건 둘다낮음 -->
+  <circle cx="212" cy="488" r="8" fill="#9E9E9E"/>
+
+  <!-- (0.4,-0.7) 1건 둘다낮음 -->
+  <circle cx="156" cy="516" r="8" fill="#9E9E9E"/>
+
+  <!-- (0.4,-2.0) E1-⑤ 강태민★ 1건 둘다낮음 -->
+  <circle cx="156" cy="620" r="8" fill="#9E9E9E"/>
+  <text x="115" y="616" font-size="10" fill="#757575">E1-⑤(-2.0)</text>
+
+  <!-- (0.0,-0.4) N1-① 최지훈★ -->
+  <circle cx="100" cy="492" r="8" fill="#9E9E9E"/>
+  <text x="60" y="502" font-size="10" fill="#757575">N1-①</text>
+
+  <!-- (0.4,-0.2) N1-③ 최지훈★ -->
+  <circle cx="156" cy="476" r="8" fill="#9E9E9E"/>
+
+  <!-- (0.0,-0.2) N1-④ 최지훈★ -->
+  <circle cx="100" cy="476" r="8" fill="#9E9E9E"/>
+  <text x="55" y="466" font-size="10" fill="#757575">N1-③·N1-④(최지훈★)</text>
+
+  <!-- 범례 -->
+  <text x="390" y="686" text-anchor="middle" font-size="11" fill="#555">● 초록=BEST · 주황=AOS高·DOS低 · 회색=둘 다 낮음 · 점 크기=겹치는 건수 · 상세 IDㆍ점수는 05문서 표 참고</text>
+  <text x="390" y="698" text-anchor="middle" font-size="10" fill="#888">DOS高·AOS低(좌상단) 사분면은 0건 — AOS·DOS 둘 다 Importance−Satisfaction 격차에서 파생돼 같은 방향으로 움직이기 때문</text>
+</svg>
