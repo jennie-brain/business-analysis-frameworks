@@ -58,7 +58,7 @@
 
 ## 참고자료
 
-- `06_시장기회분석/00_방법론.md` 4~6절 — DOS 정의, Market Relevance 개념, AOS·DOS 판단 기준
+- `06_시장기회분석/00_방법론.md` 4~5절 — DOS 정의, Market Relevance 개념, AOS·DOS 판단 기준
 - `06_시장기회분석/02_AOS매트릭스.md` — AOS·Importance·Satisfaction 원점수
 - `04_TAM-SAM-SOM_마켓세그먼트/08_TAM_SAM_SOM_시장세그먼트맵.md` — SOM 타겟 세그먼트(3,123억 달러) 산출, SAM 한계(계열사간 자금이동 미계량), 대기업 제외 근거
 - `05_페르소나_고객여정지도/01_페르소나스펙트럼_분석보고서.md` — 페르소나별 회사 규모·업종(수출/수입/겸업) 근거
