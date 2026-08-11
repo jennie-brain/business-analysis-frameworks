@@ -1,12 +1,12 @@
 # DOS 문서 — 36개 Pain 전체 DOS 점수표(SAM 버전·SOM 버전)
 
-이 문서는 06챕터의 **DOS(Discovered Opportunity Score) 산출 결과 문서**다. `00_방법론.md` 4~5절이 정의한 DOS 방법론을 06챕터 Pain 36개 전체(예시 발췌가 아니라 전수)에 그대로 적용한다.
+이 문서는 06챕터의 **DOS(Discovered Opportunity Score) 산출 결과 문서**다. [00_방법론.md](00_방법론.md) 4~5절이 정의한 DOS 방법론을 06챕터 Pain 36개 전체(예시 발췌가 아니라 전수)에 그대로 적용한다.
 
 ## 개요 — DOS를 어떻게 도출했는가
 
-1. **정의(00_방법론.md 4.2절)**: `DOS = (Importance − Satisfaction) × Market Relevance`. AOS와 달리 시장 규모·맥락(Market Relevance)을 곱해 "발견된 기회"를 산출한다.
-2. **입력값**: Importance·Satisfaction은 `02_AOS매트릭스.md`에서 이미 산출한 36개 Pain의 원점수를 그대로 쓴다. 재평가하지 않는다.
-3. **Market Relevance 결정**: `03_MarketRelevance_판단.md`에서 04챕터 08문서(TAM-SAM-SOM 산출)를 근거로 페르소나를 5개 그룹(수출·수입·겸업·Adjacent·대기업)으로 나누고, 그룹별 비중을 판단했다.
+1. **정의([00_방법론.md](00_방법론.md) 4.2절)**: `DOS = (Importance − Satisfaction) × Market Relevance`. AOS와 달리 시장 규모·맥락(Market Relevance)을 곱해 "발견된 기회"를 산출한다.
+2. **입력값**: Importance·Satisfaction은 [02_AOS매트릭스.md](02_AOS매트릭스.md)에서 이미 산출한 36개 Pain의 원점수를 그대로 쓴다. 재평가하지 않는다.
+3. **Market Relevance 결정**: [03_MarketRelevance_판단.md](03_MarketRelevance_판단.md)에서 [04_TAM-SAM-SOM_마켓세그먼트/08_TAM_SAM_SOM_시장세그먼트맵.md](../04_TAM-SAM-SOM_마켓세그먼트/08_TAM_SAM_SOM_시장세그먼트맵.md)(TAM-SAM-SOM 산출)를 근거로 페르소나를 5개 그룹(수출·수입·겸업·Adjacent·대기업)으로 나누고, 그룹별 비중을 판단했다.
 4. **이 문서의 작업**: 그 비중을 **분모를 SAM(1.34조 달러)으로 쓸 때**와 **분모를 SOM 타겟 세그먼트(3,123억 달러)로 쓸 때** 두 갈래로 계산해, 36개 Pain 전체의 DOS를 빠짐없이 산출했다(예시 발췌 없음).
 
 ## 인사이트 요약
@@ -126,7 +126,7 @@ DOS = (Importance − Satisfaction) × Market Relevance(SAM 버전).
 ## 참고자료
 
 - `이미지/DOS_점수표.svg` — Market Relevance 그룹 비교, SOM 버전 DOS 양수 구간 시각화
-- `06_시장기회분석/00_방법론.md` 4~5절 — DOS 정의·산출 방법론
-- `06_시장기회분석/03_MarketRelevance_판단.md` — 그룹별 세그먼트 매핑과 SOM 버전 Market Relevance 근거
-- `06_시장기회분석/02_AOS매트릭스.md` — 36개 Pain의 Importance·Satisfaction 원점수
-- `04_TAM-SAM-SOM_마켓세그먼트/08_TAM_SAM_SOM_시장세그먼트맵.md` — SAM(1.34조 달러)·SOM 타겟 세그먼트(3,123억 달러) 산출 근거
+- [00_방법론.md](00_방법론.md) 4~5절 — DOS 정의·산출 방법론
+- [03_MarketRelevance_판단.md](03_MarketRelevance_판단.md) — 그룹별 세그먼트 매핑과 SOM 버전 Market Relevance 근거
+- [02_AOS매트릭스.md](02_AOS매트릭스.md) — 36개 Pain의 Importance·Satisfaction 원점수
+- [04_TAM-SAM-SOM_마켓세그먼트/08_TAM_SAM_SOM_시장세그먼트맵.md](../04_TAM-SAM-SOM_마켓세그먼트/08_TAM_SAM_SOM_시장세그먼트맵.md) — SAM(1.34조 달러)·SOM 타겟 세그먼트(3,123억 달러) 산출 근거
